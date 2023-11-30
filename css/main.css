@@ -5072,6 +5072,34 @@ input.num-product::-webkit-inner-spin-button {
 
   .w-full-ssm {width: 100%;}
 
+
+
   /*---------------------------------------------*/
   
+}
+
+.video__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.video__youtube{
+  width: 100%;
+  max-width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px){
+  .video__container{
+    flex-direction: row;
+  }
+
+  .video__youtube{
+    width: 100%;
+  }
+
+  .video__texts{
+    width: 50%;
+  }
 }
