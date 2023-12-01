@@ -380,7 +380,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 /*---------------------------------------------*/
 
 .center-header {
-  height: 100%;
+  height: 50%;
 }
 
 .header-v1 .center-header {
@@ -1061,6 +1061,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 [ RS RevoSlide 1 ]*/
 
 /*---------------------------------------------*/
+
 #rev_slider_1 .gyges.tparrows {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1193,6 +1194,30 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
   #rev_slider_2 .layer4,
   #rev_slider_1 .layer4 {
     justify-content: center;
+  }
+}
+
+.fullwidthabanner{
+  width: 100% !important;
+  max-width: 350px!important;
+  height: 300px !important;
+  background-size: cover;
+}
+
+.tp-fullwidth-forcer, .fullwidthbanner-container {
+  height: 200px !important;
+}
+
+@media (min-width: 767px) {
+  .fullwidthabanner{
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100vh !important;
+    background-size: cover !important;
+  }
+
+  .tp-fullwidth-forcer, .fullwidthbanner-container {
+    height: 100vh !important;
   }
 }
 
@@ -1385,9 +1410,20 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
   font-family: Lato-Regular;
 }
 
+#rev_slider_5 .imagen__fondo{
+  width: 100%;
+  max-width: 350px;
+  background-size: cover;
+}
+
 @media (max-width: 767px) {
   #rev_slider_5 .layer4 {
     justify-content: center;
+  }
+
+  #rev_slider_5 .imagen__fondo{
+    width: 100%;
+    max-width: 750px;
   }
 }
 
@@ -5102,4 +5138,8 @@ input.num-product::-webkit-inner-spin-button {
   .video__texts{
     width: 50%;
   }
+}
+
+.imagen__fondo{
+width: 100%;
 }
