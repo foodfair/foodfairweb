@@ -26,7 +26,7 @@
         });
     } catch(er) {console.log(er);}
 
-    
+
     /*[ Back to top ]
     ===========================================================*/
     try {
@@ -58,7 +58,7 @@
                 var filterValue = $(this).attr('data-filter');
                 $topeContainer.isotope({filter: filterValue});
             });
-            
+
         });
 
         // init Isotope
@@ -89,7 +89,7 @@
 
                 if($(this).data('filter') === "*") {
                     $('.isotope-grid-gallery .isotope-item .js-gallery').addClass('js-show-gallery');
-                    
+
                     $('.gallery-lb.isotope-grid-gallery').each(function() {
                         $(this).find('.js-show-gallery').magnificPopup({
                             type: 'image',
@@ -117,7 +117,7 @@
             });
         });
     } catch(er) {console.log(er);}
-        
+
 
 
     /*==================================================================
@@ -127,34 +127,34 @@
         var wrapMenu = $('.wrap-menu-desktop');
 
         if($('.top-bar').length > 0) {
-            var posWrapHeader = $('.top-bar').height();
+            var posWrapHeader = $('.top-bar').height() ;
         }
         else {
-            var posWrapHeader = 0;
+            var posWrapHeader =0;
         }
-        
+
 
         if($(window).scrollTop() > posWrapHeader) {
             $(headerDesktop).addClass('fix-menu-desktop');
-            $(wrapMenu).css('top',0); 
-        }  
+            $(wrapMenu).css('top',0);
+        }
         else {
             $(headerDesktop).removeClass('fix-menu-desktop');
-            $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop()); 
+            $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop());
         }
 
         $(window).on('scroll',function(){
             if($(this).scrollTop() > posWrapHeader) {
                 $(headerDesktop).addClass('fix-menu-desktop');
-                $(wrapMenu).css('top',0); 
-            }  
+                $(wrapMenu).css('top',0);
+            }
             else {
                 $(headerDesktop).removeClass('fix-menu-desktop');
-                $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop()); 
-            } 
+                $(wrapMenu).css('top',posWrapHeader - $(this).scrollTop());
+            }
         });
     } catch(er) {console.log(er);}
-        
+
 
 
     /*==================================================================
@@ -182,16 +182,16 @@
                 }
 
                 $('.sub-menu-m').each(function(){
-                    if($(this).css('display') === 'block') { 
+                    if($(this).css('display') === 'block') {
                         $(this).css('display','none');
                         $(arrowMainMenu).removeClass('turn-arrow-main-menu-m');
                     }
                 });
-                    
+
             }
         });
     } catch(er) {console.log(er);}
-        
+
 
 
     /*==================================================================
@@ -211,7 +211,7 @@
             e.stopPropagation();
         });
     } catch(er) {console.log(er);}
-        
+
 
 
     /*==================================================================
@@ -234,14 +234,14 @@
 
             $(wrapMenuClick).find('.menu-click-child').on('click', function(e){
                 e.stopPropagation();
-            }); 
+            });
         });
 
         $(window).on('click', function(){
             $('.wrap-menu-click').find('.menu-click').removeClass('show-menu-click showed');
         })
     } catch(er) {console.log(er);}
-    
+
 
     /*==================================================================
     [ Sweetalert ]*/
@@ -291,7 +291,7 @@
 
 
     } catch(er) {console.log(er);}
-    
+
     /*==================================================================
     [ Parallax100 ]*/
     try {
@@ -382,7 +382,7 @@
                 //go to " http://momentjs.com/timezone/ " to get timezone
             });
         });
-            
+
     } catch(er) {console.log(er);}
 
 
@@ -393,7 +393,7 @@
             $('.wrap-iframe-video').children('iframe')[0].src += "rel=0&autoplay=1";
 
             $('.wrap-iframe-video').addClass('show-video');
-            
+
             $(this).fadeOut();
             ev.preventDefault();
         });
@@ -411,16 +411,16 @@
                 var per = Number($(this).data('percent'));
                 var inner = $(this).children('.progress-inner');
 
-                if($(window).scrollTop() + $(window).height() > $(this).offset().top && per > 0) { 
-                    $(this).data('percent','0');  
-                    inner.html(per + "%"); 
+                if($(window).scrollTop() + $(window).height() > $(this).offset().top && per > 0) {
+                    $(this).data('percent','0');
+                    inner.html(per + "%");
                     inner.animate({width: per + "%"},1500);
                 }
             });
         });
     } catch(er) {console.log(er);}
 
-        
+
     /*==================================================================
     [ JS height ]*/
     try {
@@ -436,7 +436,7 @@
             });
         });
     } catch(er) {console.log(er);}
-    
+
 
     /*==================================================================
     [ Magnific-Popup ]*/
@@ -524,7 +524,7 @@
             $(this).prev().val(numProduct + 1);
         });
     } catch(er) {console.log(er);}
-        
+
     /*==================================================================
     [ Rating ]*/
     try {
@@ -568,7 +568,7 @@
             });
         });
     } catch(er) {console.log(er);}
-        
+
     /*==================================================================
     [ Show/hide panel1 ]*/
     try {
@@ -595,7 +595,7 @@
             }
         });
     } catch(er) {console.log(er);}
-        
+
     /*==================================================================
     [ Show/hide Reply cmt ]*/
     try {

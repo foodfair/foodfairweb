@@ -16,7 +16,7 @@
         }
 
         jQuery('#rev_slider_1').show().revolution({
-            
+
             responsiveLevels: [1900, 992, 768, 576],
             gridwidth:[1900, 992, 768, 576],
             minHeight: screenH1,
@@ -32,15 +32,15 @@
                 onHoverStop: 'off',
 
                 touch: {
- 
+
                     touchenabled: 'on',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
                     drag_block_vertical: true
-             
+
                 },
- 
+
                 arrows: {
                     enable: true,
                     style: 'gyges',
@@ -53,7 +53,7 @@
                         h_offset: offsetArrow1,
                         v_offset: 0
                     },
-             
+
                     right: {
                         container: 'slider',
                         h_align: 'right',
@@ -62,7 +62,7 @@
                         v_offset: 0
                     }
                 },
- 
+
                 bullets: {
                     enable: false,
                     style: 'uranus',
@@ -96,7 +96,7 @@
         }
 
         jQuery('#rev_slider_2').show().revolution({
-            
+
             responsiveLevels: [1900, 992, 768, 576],
             gridwidth:[1900, 992, 768, 576],
             minHeight: screenH2,
@@ -112,15 +112,15 @@
                 onHoverStop: 'off',
 
                 touch: {
- 
+
                     touchenabled: 'on',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
                     drag_block_vertical: true
-             
+
                 },
- 
+
                 arrows: {
                     enable: false,
                     style: 'gyges',
@@ -133,7 +133,7 @@
                         h_offset: offsetArrow2,
                         v_offset: 0
                     },
-             
+
                     right: {
                         container: 'slider',
                         h_align: 'right',
@@ -142,7 +142,7 @@
                         v_offset: 0
                     }
                 },
- 
+
                 bullets: {
                     enable: true,
                     style: 'persephone',
@@ -172,7 +172,7 @@
         }
 
         jQuery('#rev_slider_3').show().revolution({
-            
+
             responsiveLevels: [1200, 992, 768, 576],
             gridwidth:[1200, 992, 768, 576],
             minHeight: screenH3,
@@ -188,15 +188,15 @@
                 onHoverStop: 'off',
 
                 touch: {
- 
+
                     touchenabled: 'on',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
                     drag_block_vertical: true
-             
+
                 },
- 
+
                 arrows: {
                     enable: false,
                     style: 'gyges',
@@ -209,7 +209,7 @@
                         h_offset: offsetArrow3,
                         v_offset: 0
                     },
-             
+
                     right: {
                         container: 'slider',
                         h_align: 'right',
@@ -218,7 +218,7 @@
                         v_offset: 0
                     }
                 },
- 
+
                 bullets: {
                     enable: true,
                     style: 'hephaistos',
@@ -266,7 +266,7 @@
         }
 
         jQuery('#rev_slider_4').show().revolution({
-            
+
             responsiveLevels: [1900, 992, 768, 576],
             gridwidth:[1900, 992, 768, 576],
             minHeight: screenH4,
@@ -282,15 +282,15 @@
                 onHoverStop: 'off',
 
                 touch: {
- 
+
                     touchenabled: 'on',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
                     drag_block_vertical: true
-             
+
                 },
- 
+
                 arrows: {
                     enable: false,
                     style: 'gyges',
@@ -303,7 +303,7 @@
                         h_offset: offsetArrow4,
                         v_offset: 0
                     },
-             
+
                     right: {
                         container: 'slider',
                         h_align: 'right',
@@ -312,7 +312,7 @@
                         v_offset: 0
                     }
                 },
- 
+
                 bullets: {
                     enable: true,
                     style: 'hermes',
@@ -345,7 +345,7 @@
         }
 
         jQuery('#rev_slider_5').show().revolution({
-            
+
             responsiveLevels: [1900, 1200, 768, 576],
             gridwidth:[1900, 1200, 768, 576],
             minHeight: screenH5,
@@ -361,15 +361,15 @@
                 onHoverStop: 'off',
 
                 touch: {
- 
+
                     touchenabled: 'on',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
                     drag_block_vertical: true
-             
+
                 },
- 
+
                 arrows: {
                     enable: false,
                     style: 'gyges',
@@ -382,7 +382,7 @@
                         h_offset: offsetArrow5,
                         v_offset: 0
                     },
-             
+
                     right: {
                         container: 'slider',
                         h_align: 'right',
@@ -391,7 +391,7 @@
                         v_offset: 0
                     }
                 },
- 
+
                 bullets: {
                     enable: true,
                     style: 'hephaistos',
@@ -425,7 +425,7 @@
         }
 
         jQuery('#rev_slider_6').show().revolution({
-            
+
             responsiveLevels: [1200, 992, 768, 576],
             gridwidth:[1200, 992, 768, 576],
             minHeight: screenH6,
@@ -441,15 +441,15 @@
                 onHoverStop: 'off',
 
                 touch: {
- 
+
                     touchenabled: 'on',
                     swipe_threshold: 75,
                     swipe_min_touches: 1,
                     swipe_direction: 'horizontal',
                     drag_block_vertical: true
-             
+
                 },
- 
+
                 arrows: {
                     enable: false,
                     style: 'gyges',
@@ -462,7 +462,7 @@
                         h_offset: offsetArrow6,
                         v_offset: 0
                     },
-             
+
                     right: {
                         container: 'slider',
                         h_align: 'right',
@@ -471,7 +471,7 @@
                         v_offset: 0
                     }
                 },
- 
+
                 bullets: {
                     enable: true,
                     style: 'hephaistos',

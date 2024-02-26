@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 Project: Oragnive
 Version:  1.0
-Last change:  
+Last change:
 Assigned to:  Le Xuan Bach
 Primary use:  Company
 -------------------------------------------------------------------*/
@@ -42,77 +42,77 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 [ 1 ]*/
 @font-face {
   font-family: Lato-Regular;
-  src: url('../fonts/Lato/Lato-Regular.ttf'); 
+  src: url('../fonts/Lato/Lato-Regular.ttf');
 }
 
 @font-face {
   font-family: Lato-Light;
-  src: url('../fonts/Lato/Lato-Light.ttf'); 
+  src: url('../fonts/Lato/Lato-Light.ttf');
 }
 
 @font-face {
   font-family: Lato-LightItalic;
-  src: url('../fonts/Lato/Lato-LightItalic.ttf'); 
+  src: url('../fonts/Lato/Lato-LightItalic.ttf');
 }
 
 @font-face {
   font-family: Lato-SemiBold;
-  src: url('../fonts/Lato/Lato-SemiBold.ttf'); 
+  src: url('../fonts/Lato/Lato-SemiBold.ttf');
 }
 
 @font-face {
   font-family: Lato-Bold;
-  src: url('../fonts/Lato/Lato-Bold.ttf'); 
+  src: url('../fonts/Lato/Lato-Bold.ttf');
 }
 
 @font-face {
   font-family: Lato-Black;
-  src: url('../fonts/Lato/Lato-Black.ttf'); 
+  src: url('../fonts/Lato/Lato-Black.ttf');
 }
 
 @font-face {
   font-family: Lato-Hairline;
-  src: url('../fonts/Lato/Lato-Hairline.ttf'); 
+  src: url('../fonts/Lato/Lato-Hairline.ttf');
 }
 
 /*------------------------------------------------------------------
 [ 2 ]*/
 @font-face {
   font-family: PlayfairDisplay-Italic;
-  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf'); 
+  src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Italic.ttf');
 }
 
 /*------------------------------------------------------------------
 [ 3 ]*/
 @font-face {
   font-family: Pacifico-Regular;
-  src: url('../fonts/Pacifico/Pacifico-Regular.ttf'); 
+  src: url('../fonts/Pacifico/Pacifico-Regular.ttf');
 }
 
 /*------------------------------------------------------------------
 [ 4 ]*/
 @font-face {
   font-family: Courgette-Regular;
-  src: url('../fonts/Courgette/Courgette-Regular.ttf'); 
+  src: url('../fonts/Courgette/Courgette-Regular.ttf');
 }
 
 /*------------------------------------------------------------------
 [ 5 ]*/
 @font-face {
   font-family: Quattrocento-Regular;
-  src: url('../fonts/Quattrocento/Quattrocento-Regular.ttf'); 
+  src: url('../fonts/Quattrocento/Quattrocento-Regular.ttf');
 }
 
 /*------------------------------------------------------------------
 [ 6 ]*/
 @font-face {
   font-family: Bitter-Regular;
-  src: url('../fonts/Bitter/Bitter-Regular.ttf'); 
+  src: url('../fonts/Bitter/Bitter-Regular.ttf');
 }
 
 @font-face {
   font-family: Bitter-Bold;
-  src: url('../fonts/Bitter/Bitter-Bold.ttf'); 
+  src: url('../fonts/Bitter/Bitter-Bold.ttf');
 }
 
 
@@ -120,7 +120,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 [ 7 ]*/
 @font-face {
   font-family: GreatVibes-Regular;
-  src: url('../fonts/GreatVibes/GreatVibes-Regular.ttf'); 
+  src: url('../fonts/GreatVibes/GreatVibes-Regular.ttf');
 }
 
 
@@ -170,7 +170,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
     opacity: 1; }
   100% {
     transform: scale(1);
-    opacity: 0; } 
+    opacity: 0; }
 }
 
 
@@ -287,8 +287,12 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 [ Header Desktop ]*/
 
 .container-menu-desktop {
-  height: 123px;
+
+
+  height: 90px;
   width: 100%;
+
+
   position: relative;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -298,7 +302,8 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 
 @media (max-height: 767px) {
   .container-menu-desktop {
-    height: 90px;
+    height: 70px;
+
   }
 }
 
@@ -316,11 +321,11 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 .wrap-menu-desktop {
   position: fixed;
   z-index: 1100;
-  background-color: #fff;
+  background-color: #fd0000;
   width: 100%;
-  height: 123px;
+  height:90px;
   top: 0px;
-  left: 0px; 
+  left: 0px;
 
   -webkit-transition: height 0.3s, background-color 0.3s;
   -o-transition: height 0.3s, background-color 0.3s;
@@ -330,7 +335,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 
 @media (max-height: 767px) {
   .wrap-menu-desktop {
-    height: 90px;
+    height: 70px;
   }
 }
 
@@ -338,15 +343,18 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 .header-v2 .wrap-menu-desktop,
 .header-v1 .wrap-menu-desktop {
   background-color: transparent;
+
 }
 
 
 /*---------------------------------------------*/
 .limiter-menu-desktop {
+
   max-width: 1710px;
   padding: 0 15px;
   margin: 0 auto;
   height: 100%;
+
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -427,10 +435,10 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 }
 
 .logo img {
-  max-height: 68%;
+  max-height: 78%;
   position:absolute;
-  top: 0; 
-  left: 0; 
+  top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
   margin: auto;
@@ -443,12 +451,15 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 
 .menu-desktop {
   height: 100%;
+
 }
 
 .main-menu {
   list-style-type: none;
   margin: 0;
   height: 100%;
+
+
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -476,9 +487,10 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 }
 
 .main-menu > li > a {
+
   font-family: Lato-Regular;
   font-size: 16px;
-  color: #333;
+  color: #ffffff;
   text-transform: uppercase;
   padding: 5px 0px;
   transition: all 0.4s;
@@ -516,7 +528,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
   -ms-box-shadow: 0 0px 7px 0px rgba(0,0,0,0.1);
 
   visibility: hidden;
-  opacity: 0; 
+  opacity: 0;
 }
 
 .sub-menu li {
@@ -541,7 +553,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
   color: #666;
 
   display: block;
-  padding: 18px 0px; 
+  padding: 18px 0px;
   width: 100%;
   border-bottom: 1px solid #e6e6e6;
 
@@ -578,7 +590,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 .sub-menu li:hover > .sub-menu {
   visibility: visible;
   opacity: 1;
-} 
+}
 
 .sub-menu li:hover {
   background-color: transparent;
@@ -741,7 +753,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
   font-size: 25px;
   line-height: 1.2;
   color: #333;
-  
+
   padding: 0px 30px 0px 30px;
   width: calc(100% - 100px);
   height: 100%;
@@ -786,14 +798,14 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 
 
 /*==================================================================
-[ Fixed menu desktop ]*/
+[ Fixed menu desktop aui se cambia el color ]*/
 .fix-menu-desktop {
   height: 65px;
 }
 
 .fix-menu-desktop .wrap-menu-desktop {
   height: 65px;
-  background-color: rgba(255,255,255,1);
+  background-color: rgba(253,0,0,1);
   box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
   -webkit-box-shadow: 0 0px 3px 0px rgba(0,0,0,0.2);
@@ -848,8 +860,8 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
   max-width: calc(100% - 20px);
   max-height: 100%;
   position:absolute;
-  top: 0; 
-  left: 0; 
+  top: 0;
+  left: 0;
   bottom: 0;
   margin: auto;
 }
@@ -1163,7 +1175,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
 #rev_slider_5 .btn-slide span,
 #rev_slider_4 .btn-slide span,
 #rev_slider_2 .btn-slide span,
-#rev_slider_1 .btn-slide span { 
+#rev_slider_1 .btn-slide span {
   font-size: 7px !important;
   letter-spacing: -1px !important;
   -webkit-transition: all 0.4s !important;
@@ -1298,7 +1310,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
   box-shadow: 0px 0px 0px 4px rgba(255,255,255, 0.0);
 }
 
-#rev_slider_3 .hephaistos .tp-bullet.selected, 
+#rev_slider_3 .hephaistos .tp-bullet.selected,
 #rev_slider_3 .hephaistos .tp-bullet:hover {
   background: rgba(255,255,255,0.6);
   box-shadow: 0px 0px 0px 4px rgba(255,255,255, 0.2);
@@ -1384,9 +1396,9 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
   box-shadow: none;
 }
 
-#rev_slider_6 .hephaistos .tp-bullet.selected, 
+#rev_slider_6 .hephaistos .tp-bullet.selected,
 #rev_slider_6 .hephaistos .tp-bullet:hover,
-#rev_slider_5 .hephaistos .tp-bullet.selected, 
+#rev_slider_5 .hephaistos .tp-bullet.selected,
 #rev_slider_5 .hephaistos .tp-bullet:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -1882,7 +1894,7 @@ input.num-product {
 input.num-product::-webkit-outer-spin-button,
 input.num-product::-webkit-inner-spin-button {
   -webkit-appearance: none;
-  margin: 0; 
+  margin: 0;
 }
 
 /*//////////////////////////////////////////////////////////////////
@@ -2641,7 +2653,7 @@ input.num-product::-webkit-inner-spin-button {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%; 
+  width: 100%;
 
   -webkit-transform: translateY(200px);
   -moz-transform: translateY(200px);
@@ -3390,7 +3402,7 @@ input.num-product::-webkit-inner-spin-button {
 
 
 /*==================================================================
-    SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE 
+    SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE SIZE
 ==================================================================*/
 
 
@@ -3990,7 +4002,7 @@ input.num-product::-webkit-inner-spin-button {
 
 
 /*==================================================================
-   BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND 
+   BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND BACKGROUND
 ==================================================================*/
 .bg0 {background-color: #fff;}
 .bg1 {background-color: #111;}
@@ -4059,7 +4071,7 @@ input.num-product::-webkit-inner-spin-button {
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .plh0::-webkit-input-placeholder { color: #ccc;}
 .plh0:-moz-placeholder { color: #ccc;}
@@ -4236,7 +4248,7 @@ input.num-product::-webkit-inner-spin-button {
 
 
 /*---------------------------------------------*/
-.how-btn1 span { 
+.how-btn1 span {
   font-size: 7px;
   letter-spacing: -1px;
   -webkit-transition: transform 0.4s;
@@ -4355,7 +4367,7 @@ input.num-product::-webkit-inner-spin-button {
 
 .how-bor5::before {
   content: "";
-  display: block; 
+  display: block;
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -4918,7 +4930,7 @@ input.num-product::-webkit-inner-spin-button {
   .respon20 {
     justify-content: space-around;
   }
- 
+
 }
 
 
@@ -5056,7 +5068,7 @@ input.num-product::-webkit-inner-spin-button {
     width: 100%;
     padding-top: 0;
   }
-  
+
   /*---------------------------------------------*/
   .respon11 {
     width: 100%;
@@ -5111,7 +5123,7 @@ input.num-product::-webkit-inner-spin-button {
 
 
   /*---------------------------------------------*/
-  
+
 }
 
 .video__container{
