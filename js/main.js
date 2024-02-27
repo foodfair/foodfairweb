@@ -167,6 +167,7 @@
 
         var arrowMainMenu = $('.arrow-main-menu-m');
 
+
         for(var i=0; i<arrowMainMenu.length; i++){
             $(arrowMainMenu[i]).on('click', function(){
                 $(this).parent().find('.sub-menu-m').slideToggle();
