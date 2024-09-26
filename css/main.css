@@ -1226,7 +1226,7 @@ Input, textarea : 14px/1.6 'Lato-Regular','Lato-Light', Arial, sans-serif;
   .fullwidthabanner{
     width: 100% !important;
     max-width: 100% !important;
-    /*height: 100vh !important; */
+    height: 100vh !important;
     background-size: cover !important;
   }
 
