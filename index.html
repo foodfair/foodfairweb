@@ -36,6 +36,51 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+<style>
+		/* Estilos para asegurar que las imágenes del slider se adapten correctamente */
+		.sec-slider {
+			position: relative;
+			width: 100%;
+			height: 100vh; /* Toma toda la altura de la pantalla */
+			overflow: hidden;
+		}
+
+		.rev-slidebg {
+			width: 100%;
+			height: 100%;
+			object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin deformarse */
+		}
+
+		/* Regla general para imágenes */
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+		
+		/* Ajuste de imágenes de fondo */
+		.imagen__fondo {
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+			height: 100%;
+		}
+
+		/* Asegura que los contenedores no restrinjan el tamaño */
+		.wrap-pic-w, .gallery-item {
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+		}
+
+		/* Para asegurarse de que los contenedores de galería también sean responsivos */
+		.gallery-item img {
+			width: 100%;
+			height: auto;
+		}
+	</style>
+
+	
 </head>
 <body class="animsition">
 <header class="header-v3">
