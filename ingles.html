@@ -38,25 +38,34 @@
 <!--===============================================================================================-->
 
 <style>
-	img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
+		/* Regla general para imágenes */
+		img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+		
+		/* Ajuste de imágenes de fondo */
+		.imagen__fondo {
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+			height: auto;
+		}
 
-	.wrap-pic-w, .gallery-item {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
+		/* Asegura que los contenedores no restrinjan el tamaño */
+		.wrap-pic-w, .gallery-item {
+			width: 100%;
+			max-width: 100%;
+			height: auto;
+		}
 
-	.imagen__fondo {
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: auto;
-}
-</style>
+		/* Para asegurarse de que los contenedores de galería también sean responsivos */
+		.gallery-item img {
+			width: 100%;
+			height: auto;
+		}
+	</style>
 	
 </head>
 <body class="animsition">
